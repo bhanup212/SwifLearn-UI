@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="12dp">
+
+    <RadioGroup
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/science"
+            android:layout_gravity="start"
+            android:layoutDirection="rtl"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/maths"
+            android:layoutDirection="rtl"
+            android:layout_gravity="end"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/english"
+            android:layout_gravity="end"
+            android:layoutDirection="rtl"/>
+    </RadioGroup>
+
+</LinearLayout>
